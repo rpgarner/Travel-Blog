@@ -4,10 +4,11 @@ const router = Router();
 
 router.get('/', (req,res) => res.send('landing page'))
 
-// router.get("/posts", controllers.getPosts);
+router.get("/posts", controllers.getPosts);
 
-// router.get("/posts/:id", controllers.getComments);
+router.post("/posts/:id", controllers.postAComment)
 
+router.get("/posts/:id", controllers.getPostById)
 
 
 module.exports = router;

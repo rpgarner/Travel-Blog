@@ -42,3 +42,19 @@
   display: flex;
   justify-content: space-around;
 }
+
+.pictures {
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+}
+ 
+.posts {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(127, 127, 202);
+  justify-content: space-between;
+  padding: 5px;
+  color: white;
+}
